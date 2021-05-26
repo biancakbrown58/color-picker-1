@@ -9,10 +9,70 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+  background-image: url(wp2836051.jpg);
 }
 .hue {
   font-size: 4rem;
 }
-.color-bar {
+.saturation {
   font-size: 4rem;
+}
+.lightness {
+  font-size: 4rem;
+}
+.alpha {
+  font-size: 4rem;
+}
+.color-bar {
+  padding: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+button {
+  font-size: 1.5rem;
+  border-radius: 14rem;
+  padding: 1rem;
+  margin: 2rem;
+  color: white;
+}
+// .slider {
+//   -webkit-appearance: none;
+//   width: 50%;
+//   height: 15px;
+//   background: rgb(0, 0, 0);
+//   outline: none;
+//   border: 5px solid lawngreen;
+//   border-radius: 20px;
+// }
+.slider {
+  color: white;
+  background-color: white;
+}
+
+// /* for chrome/safari */
+// .slider::-webkit-slider-thumb {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   width: 20px;
+//   height: 60px;
+//   background: #000;
+//   cursor: pointer;
+//   border: 5px solid lawngreen;
+//   border-radius: 20px;
+// }
+
+// /* for firefox */
+// .slider::-moz-range-thumb {
+//   width: 20px;
+//   height: 60px;
+//   background: #000;
+//   cursor: pointer;
+//   border: 5px solid lawngreen;
+//   border-radius: 15px;
+// }
+p {
+  padding: 1rem;
+  color: white;
 }
